@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/6
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hdGtvLnZ1Z2FAaG90bWFpbC5jb20iLCJleHAiOjE3NTc1MjA4NTYsInVzZXJJZCI6MX0.2aNjnFnkvs3uwrSRD0Voz7ZblBauXZpMYKDUlBNHKFw
+
+{
+    "name": "Sime",
+    "description": "Opis2",
+    "location": "Lokacija 2",
+    "date_time": "2025-05-06T14:40:33.000Z"
+}

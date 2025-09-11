@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+Content-Type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hdGtvLnZ1Z2FAaG90bWFpbC5jb20iLCJleHAiOjE3NDcxNDc2NTAsInVzZXJJZCI6MX0.eKHHdVUGz4TX8nKwr_LA-dARc0thPkQR71_Q_wU2o8o
+
+{
+    "Name": "Muzej",
+    "Description": "Idemo u muzej",
+    "Location": "Muzej1",
+    "DateTime": "2025-05-06T10:40:33.000Z"
+}
