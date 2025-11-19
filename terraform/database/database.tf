@@ -4,13 +4,13 @@ variable "name" {
 }
 
 variable "instance_name" {
-    default = "postgres-14"
+    default = "postgres-15"
 }
 
 variable "region" {}
 
 variable "database_version" {
-    default = "POSTGRES_14"
+    default = "POSTGRES_15"
 }
 
 variable "tier" {

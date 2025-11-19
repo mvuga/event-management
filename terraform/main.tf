@@ -24,8 +24,8 @@ resource "google_project_service" "enabled_apis" {
 
 module "database" {
     source = "./database"
-    instance_name = "postgres-14"
-    database_version = "PPOSTGRES_15"
+    instance_name = "postgres-15"
+    database_version = "POSTGRES_15"
     region = var.region
 }
 
@@ -33,5 +33,4 @@ module "gke" {
   source = "./gke"
   region = var.region
   machine_type = var.gke_machine_type
-
 }
