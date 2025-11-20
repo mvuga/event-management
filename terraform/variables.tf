@@ -7,7 +7,7 @@ variable "project_id" {
 variable "region" {
     description = "GCP deployment region"
     default = "europe-west3-c"
-    type= "string"
+    type= string
 }
 
 variable "gke_machine_type" {
